@@ -1,0 +1,321 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FF28C441635B253000DC209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C431635B253000DC209 /* UIKit.framework */; };
+		8FF28C461635B253000DC209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C451635B253000DC209 /* Foundation.framework */; };
+		8FF28C481635B253000DC209 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C471635B253000DC209 /* CoreGraphics.framework */; };
+		8FF28C4E1635B253000DC209 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C4C1635B253000DC209 /* InfoPlist.strings */; };
+		8FF28C501635B253000DC209 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28C4F1635B253000DC209 /* main.m */; };
+		8FF28C541635B253000DC209 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28C531635B253000DC209 /* AppDelegate.m */; };
+		8FF28C561635B253000DC209 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C551635B253000DC209 /* Default.png */; };
+		8FF28C581635B253000DC209 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C571635B253000DC209 /* Default@2x.png */; };
+		8FF28C5A1635B253000DC209 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C591635B253000DC209 /* Default-568h@2x.png */; };
+		8FF28C5D1635B253000DC209 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C5B1635B253000DC209 /* MainStoryboard.storyboard */; };
+		8FF28C601635B253000DC209 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28C5F1635B253000DC209 /* FirstViewController.m */; };
+		8FF28C621635B253000DC209 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C611635B253000DC209 /* first.png */; };
+		8FF28C641635B253000DC209 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C631635B253000DC209 /* first@2x.png */; };
+		8FF28C671635B253000DC209 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28C661635B253000DC209 /* SecondViewController.m */; };
+		8FF28C691635B253000DC209 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C681635B253000DC209 /* second.png */; };
+		8FF28C6B1635B253000DC209 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C6A1635B253000DC209 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8FF28C3F1635B253000DC209 /* Musicise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicise.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FF28C431635B253000DC209 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8FF28C451635B253000DC209 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8FF28C471635B253000DC209 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8FF28C4B1635B253000DC209 /* Musicise-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Musicise-Info.plist"; sourceTree = "<group>"; };
+		8FF28C4D1635B253000DC209 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8FF28C4F1635B253000DC209 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FF28C511635B253000DC209 /* Musicise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Musicise-Prefix.pch"; sourceTree = "<group>"; };
+		8FF28C521635B253000DC209 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8FF28C531635B253000DC209 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8FF28C551635B253000DC209 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		8FF28C571635B253000DC209 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		8FF28C591635B253000DC209 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		8FF28C5C1635B253000DC209 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		8FF28C5E1635B253000DC209 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		8FF28C5F1635B253000DC209 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		8FF28C611635B253000DC209 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		8FF28C631635B253000DC209 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		8FF28C651635B253000DC209 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		8FF28C661635B253000DC209 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		8FF28C681635B253000DC209 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		8FF28C6A1635B253000DC209 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FF28C3C1635B253000DC209 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF28C441635B253000DC209 /* UIKit.framework in Frameworks */,
+				8FF28C461635B253000DC209 /* Foundation.framework in Frameworks */,
+				8FF28C481635B253000DC209 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FF28C341635B253000DC209 = {
+			isa = PBXGroup;
+			children = (
+				8FF28C491635B253000DC209 /* Musicise */,
+				8FF28C421635B253000DC209 /* Frameworks */,
+				8FF28C401635B253000DC209 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FF28C401635B253000DC209 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28C3F1635B253000DC209 /* Musicise.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FF28C421635B253000DC209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28C431635B253000DC209 /* UIKit.framework */,
+				8FF28C451635B253000DC209 /* Foundation.framework */,
+				8FF28C471635B253000DC209 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8FF28C491635B253000DC209 /* Musicise */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28C521635B253000DC209 /* AppDelegate.h */,
+				8FF28C531635B253000DC209 /* AppDelegate.m */,
+				8FF28C5B1635B253000DC209 /* MainStoryboard.storyboard */,
+				8FF28C5E1635B253000DC209 /* FirstViewController.h */,
+				8FF28C5F1635B253000DC209 /* FirstViewController.m */,
+				8FF28C611635B253000DC209 /* first.png */,
+				8FF28C631635B253000DC209 /* first@2x.png */,
+				8FF28C651635B253000DC209 /* SecondViewController.h */,
+				8FF28C661635B253000DC209 /* SecondViewController.m */,
+				8FF28C681635B253000DC209 /* second.png */,
+				8FF28C6A1635B253000DC209 /* second@2x.png */,
+				8FF28C4A1635B253000DC209 /* Supporting Files */,
+			);
+			path = Musicise;
+			sourceTree = "<group>";
+		};
+		8FF28C4A1635B253000DC209 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8FF28C4B1635B253000DC209 /* Musicise-Info.plist */,
+				8FF28C4C1635B253000DC209 /* InfoPlist.strings */,
+				8FF28C4F1635B253000DC209 /* main.m */,
+				8FF28C511635B253000DC209 /* Musicise-Prefix.pch */,
+				8FF28C551635B253000DC209 /* Default.png */,
+				8FF28C571635B253000DC209 /* Default@2x.png */,
+				8FF28C591635B253000DC209 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FF28C3E1635B253000DC209 /* Musicise */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FF28C6E1635B253000DC209 /* Build configuration list for PBXNativeTarget "Musicise" */;
+			buildPhases = (
+				8FF28C3B1635B253000DC209 /* Sources */,
+				8FF28C3C1635B253000DC209 /* Frameworks */,
+				8FF28C3D1635B253000DC209 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Musicise;
+			productName = Musicise;
+			productReference = 8FF28C3F1635B253000DC209 /* Musicise.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FF28C361635B253000DC209 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Guo Anhong";
+			};
+			buildConfigurationList = 8FF28C391635B253000DC209 /* Build configuration list for PBXProject "Musicise" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8FF28C341635B253000DC209;
+			productRefGroup = 8FF28C401635B253000DC209 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FF28C3E1635B253000DC209 /* Musicise */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FF28C3D1635B253000DC209 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF28C4E1635B253000DC209 /* InfoPlist.strings in Resources */,
+				8FF28C561635B253000DC209 /* Default.png in Resources */,
+				8FF28C581635B253000DC209 /* Default@2x.png in Resources */,
+				8FF28C5A1635B253000DC209 /* Default-568h@2x.png in Resources */,
+				8FF28C5D1635B253000DC209 /* MainStoryboard.storyboard in Resources */,
+				8FF28C621635B253000DC209 /* first.png in Resources */,
+				8FF28C641635B253000DC209 /* first@2x.png in Resources */,
+				8FF28C691635B253000DC209 /* second.png in Resources */,
+				8FF28C6B1635B253000DC209 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FF28C3B1635B253000DC209 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FF28C501635B253000DC209 /* main.m in Sources */,
+				8FF28C541635B253000DC209 /* AppDelegate.m in Sources */,
+				8FF28C601635B253000DC209 /* FirstViewController.m in Sources */,
+				8FF28C671635B253000DC209 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8FF28C4C1635B253000DC209 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF28C4D1635B253000DC209 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8FF28C5B1635B253000DC209 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FF28C5C1635B253000DC209 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FF28C6C1635B253000DC209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8FF28C6D1635B253000DC209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FF28C6F1635B253000DC209 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Musicise/Musicise-Prefix.pch";
+				INFOPLIST_FILE = "Musicise/Musicise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8FF28C701635B253000DC209 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Musicise/Musicise-Prefix.pch";
+				INFOPLIST_FILE = "Musicise/Musicise-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FF28C391635B253000DC209 /* Build configuration list for PBXProject "Musicise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF28C6C1635B253000DC209 /* Debug */,
+				8FF28C6D1635B253000DC209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FF28C6E1635B253000DC209 /* Build configuration list for PBXNativeTarget "Musicise" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FF28C6F1635B253000DC209 /* Debug */,
+				8FF28C701635B253000DC209 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FF28C361635B253000DC209 /* Project object */;
+}
