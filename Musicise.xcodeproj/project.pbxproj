@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F8AD044163DD18200A996CF /* MatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD043163DD18200A996CF /* MatchingViewController.m */; };
+		8F8AD04A163DDA0500A996CF /* MatchingPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD049163DDA0500A996CF /* MatchingPlayViewController.m */; };
+		8F8AD051163DDCFB00A996CF /* abbeyalbum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */; };
+		8FA656F1163DE7AB00975984 /* TrainingTypeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA656F0163DE7AB00975984 /* TrainingTypeTableViewController.m */; };
+		8FA656F4163DE80800975984 /* TrainingLengthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA656F3163DE80800975984 /* TrainingLengthTableViewController.m */; };
+		8FA656F7163DE82F00975984 /* TrainingCoachTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA656F6163DE82F00975984 /* TrainingCoachTableViewController.m */; };
+		8FA65715163DFAB100975984 /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8FA65714163DFAB100975984 /* profile.jpeg */; };
 		8FF28C441635B253000DC209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C431635B253000DC209 /* UIKit.framework */; };
 		8FF28C461635B253000DC209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C451635B253000DC209 /* Foundation.framework */; };
 		8FF28C481635B253000DC209 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C471635B253000DC209 /* CoreGraphics.framework */; };
@@ -17,15 +24,25 @@
 		8FF28C581635B253000DC209 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C571635B253000DC209 /* Default@2x.png */; };
 		8FF28C5A1635B253000DC209 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C591635B253000DC209 /* Default-568h@2x.png */; };
 		8FF28C5D1635B253000DC209 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C5B1635B253000DC209 /* MainStoryboard.storyboard */; };
-		8FF28C601635B253000DC209 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28C5F1635B253000DC209 /* FirstViewController.m */; };
 		8FF28C621635B253000DC209 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C611635B253000DC209 /* first.png */; };
 		8FF28C641635B253000DC209 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C631635B253000DC209 /* first@2x.png */; };
-		8FF28C671635B253000DC209 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF28C661635B253000DC209 /* SecondViewController.m */; };
 		8FF28C691635B253000DC209 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C681635B253000DC209 /* second.png */; };
 		8FF28C6B1635B253000DC209 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8FF28C6A1635B253000DC209 /* second@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F8AD042163DD18200A996CF /* MatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingViewController.h; path = ../MatchingViewController.h; sourceTree = "<group>"; };
+		8F8AD043163DD18200A996CF /* MatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchingViewController.m; path = ../MatchingViewController.m; sourceTree = "<group>"; };
+		8F8AD048163DDA0500A996CF /* MatchingPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingPlayViewController.h; path = ../MatchingPlayViewController.h; sourceTree = "<group>"; };
+		8F8AD049163DDA0500A996CF /* MatchingPlayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchingPlayViewController.m; path = ../MatchingPlayViewController.m; sourceTree = "<group>"; };
+		8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = abbeyalbum.jpeg; sourceTree = "<group>"; };
+		8FA656EF163DE7AB00975984 /* TrainingTypeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TrainingTypeTableViewController.h; path = ../TrainingTypeTableViewController.h; sourceTree = "<group>"; };
+		8FA656F0163DE7AB00975984 /* TrainingTypeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TrainingTypeTableViewController.m; path = ../TrainingTypeTableViewController.m; sourceTree = "<group>"; };
+		8FA656F2163DE80800975984 /* TrainingLengthTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingLengthTableViewController.h; sourceTree = "<group>"; };
+		8FA656F3163DE80800975984 /* TrainingLengthTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingLengthTableViewController.m; sourceTree = "<group>"; };
+		8FA656F5163DE82F00975984 /* TrainingCoachTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingCoachTableViewController.h; sourceTree = "<group>"; };
+		8FA656F6163DE82F00975984 /* TrainingCoachTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingCoachTableViewController.m; sourceTree = "<group>"; };
+		8FA65714163DFAB100975984 /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpeg; sourceTree = "<group>"; };
 		8FF28C3F1635B253000DC209 /* Musicise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF28C431635B253000DC209 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FF28C451635B253000DC209 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -40,12 +57,8 @@
 		8FF28C571635B253000DC209 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		8FF28C591635B253000DC209 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8FF28C5C1635B253000DC209 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		8FF28C5E1635B253000DC209 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		8FF28C5F1635B253000DC209 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		8FF28C611635B253000DC209 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
 		8FF28C631635B253000DC209 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		8FF28C651635B253000DC209 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		8FF28C661635B253000DC209 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		8FF28C681635B253000DC209 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
 		8FF28C6A1635B253000DC209 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -97,12 +110,18 @@
 				8FF28C521635B253000DC209 /* AppDelegate.h */,
 				8FF28C531635B253000DC209 /* AppDelegate.m */,
 				8FF28C5B1635B253000DC209 /* MainStoryboard.storyboard */,
-				8FF28C5E1635B253000DC209 /* FirstViewController.h */,
-				8FF28C5F1635B253000DC209 /* FirstViewController.m */,
+				8F8AD042163DD18200A996CF /* MatchingViewController.h */,
+				8F8AD043163DD18200A996CF /* MatchingViewController.m */,
+				8F8AD048163DDA0500A996CF /* MatchingPlayViewController.h */,
+				8F8AD049163DDA0500A996CF /* MatchingPlayViewController.m */,
+				8FA656EF163DE7AB00975984 /* TrainingTypeTableViewController.h */,
+				8FA656F0163DE7AB00975984 /* TrainingTypeTableViewController.m */,
+				8FA656F2163DE80800975984 /* TrainingLengthTableViewController.h */,
+				8FA656F3163DE80800975984 /* TrainingLengthTableViewController.m */,
+				8FA656F5163DE82F00975984 /* TrainingCoachTableViewController.h */,
+				8FA656F6163DE82F00975984 /* TrainingCoachTableViewController.m */,
 				8FF28C611635B253000DC209 /* first.png */,
 				8FF28C631635B253000DC209 /* first@2x.png */,
-				8FF28C651635B253000DC209 /* SecondViewController.h */,
-				8FF28C661635B253000DC209 /* SecondViewController.m */,
 				8FF28C681635B253000DC209 /* second.png */,
 				8FF28C6A1635B253000DC209 /* second@2x.png */,
 				8FF28C4A1635B253000DC209 /* Supporting Files */,
@@ -120,6 +139,8 @@
 				8FF28C551635B253000DC209 /* Default.png */,
 				8FF28C571635B253000DC209 /* Default@2x.png */,
 				8FF28C591635B253000DC209 /* Default-568h@2x.png */,
+				8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */,
+				8FA65714163DFAB100975984 /* profile.jpeg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,6 +205,8 @@
 				8FF28C641635B253000DC209 /* first@2x.png in Resources */,
 				8FF28C691635B253000DC209 /* second.png in Resources */,
 				8FF28C6B1635B253000DC209 /* second@2x.png in Resources */,
+				8F8AD051163DDCFB00A996CF /* abbeyalbum.jpeg in Resources */,
+				8FA65715163DFAB100975984 /* profile.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,8 +219,11 @@
 			files = (
 				8FF28C501635B253000DC209 /* main.m in Sources */,
 				8FF28C541635B253000DC209 /* AppDelegate.m in Sources */,
-				8FF28C601635B253000DC209 /* FirstViewController.m in Sources */,
-				8FF28C671635B253000DC209 /* SecondViewController.m in Sources */,
+				8F8AD044163DD18200A996CF /* MatchingViewController.m in Sources */,
+				8F8AD04A163DDA0500A996CF /* MatchingPlayViewController.m in Sources */,
+				8FA656F1163DE7AB00975984 /* TrainingTypeTableViewController.m in Sources */,
+				8FA656F4163DE80800975984 /* TrainingLengthTableViewController.m in Sources */,
+				8FA656F7163DE82F00975984 /* TrainingCoachTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,6 +340,7 @@
 				8FF28C701635B253000DC209 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
