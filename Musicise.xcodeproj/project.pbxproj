@@ -14,6 +14,7 @@
 		8FA656F4163DE80800975984 /* TrainingLengthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA656F3163DE80800975984 /* TrainingLengthTableViewController.m */; };
 		8FA656F7163DE82F00975984 /* TrainingCoachTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA656F6163DE82F00975984 /* TrainingCoachTableViewController.m */; };
 		8FA65715163DFAB100975984 /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8FA65714163DFAB100975984 /* profile.jpeg */; };
+		8FD057A6163E0079000784BC /* stats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FD057A5163E0079000784BC /* stats.jpg */; };
 		8FF28C441635B253000DC209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C431635B253000DC209 /* UIKit.framework */; };
 		8FF28C461635B253000DC209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C451635B253000DC209 /* Foundation.framework */; };
 		8FF28C481635B253000DC209 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C471635B253000DC209 /* CoreGraphics.framework */; };
@@ -43,6 +44,7 @@
 		8FA656F5163DE82F00975984 /* TrainingCoachTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingCoachTableViewController.h; sourceTree = "<group>"; };
 		8FA656F6163DE82F00975984 /* TrainingCoachTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingCoachTableViewController.m; sourceTree = "<group>"; };
 		8FA65714163DFAB100975984 /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpeg; sourceTree = "<group>"; };
+		8FD057A5163E0079000784BC /* stats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stats.jpg; sourceTree = "<group>"; };
 		8FF28C3F1635B253000DC209 /* Musicise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF28C431635B253000DC209 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8FF28C451635B253000DC209 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -141,6 +143,7 @@
 				8FF28C591635B253000DC209 /* Default-568h@2x.png */,
 				8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */,
 				8FA65714163DFAB100975984 /* profile.jpeg */,
+				8FD057A5163E0079000784BC /* stats.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 				8FF28C6B1635B253000DC209 /* second@2x.png in Resources */,
 				8F8AD051163DDCFB00A996CF /* abbeyalbum.jpeg in Resources */,
 				8FA65715163DFAB100975984 /* profile.jpeg in Resources */,
+				8FD057A6163E0079000784BC /* stats.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
