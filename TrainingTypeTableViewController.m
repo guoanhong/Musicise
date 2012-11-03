@@ -37,7 +37,7 @@
 //    NSString *pathTrainingType = [[NSBundle mainBundle] pathForResource:@"TrainingType" ofType:@"plist"];
 //	trainingType = [[NSMutableArray alloc] initWithContentsOfFile:pathTrainingType];
     
-    trainingType = [NSArray arrayWithObjects:@"Run", @"Cycle", @"Walking", nil];
+    self.trainingType = [NSArray arrayWithObjects:@"Run", @"Cycle", @"Walking", @"Treadmill", @"Elliptical", @"Step Machine", @"Boating", nil];
     
 }
 
@@ -66,10 +66,10 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     NSString *identifier = nil;
-    NSString *trainingType = [self.trainingType objectAtIndex:indexPath.row];
+    NSString *trainingTypeText = [self.trainingType objectAtIndex:indexPath.row];
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
     // Configure the cell...
-    UILabel *cellLabel = (UILabel *)[cell viewWithTag:1]; cellLabel.text = trainingType;
+    UILabel *cellLabel = (UILabel *)[cell viewWithTag:1]; cellLabel.text = trainingTypeText;
     return cell;
 }
 

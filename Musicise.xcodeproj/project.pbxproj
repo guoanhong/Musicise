@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F4921501645C577003AC72D /* Arthur Lydiard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F49214F1645C577003AC72D /* Arthur Lydiard.jpg */; };
+		8F4921531645C597003AC72D /* Joe Vigil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921521645C597003AC72D /* Joe Vigil.jpg */; };
+		8F4921551645C637003AC72D /* Running.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921541645C637003AC72D /* Running.jpg */; };
+		8F49215A1645C878003AC72D /* Elliptical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921561645C878003AC72D /* Elliptical.jpg */; };
+		8F49215B1645C878003AC72D /* Walking.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921571645C878003AC72D /* Walking.jpg */; };
+		8F49215C1645C878003AC72D /* Cycling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921581645C878003AC72D /* Cycling.jpg */; };
+		8F49215D1645C878003AC72D /* Treadmill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921591645C878003AC72D /* Treadmill.jpg */; };
+		8F49215F1645CD5B003AC72D /* piechart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F49215E1645CD5B003AC72D /* piechart.jpg */; };
 		8F8AD044163DD18200A996CF /* MatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD043163DD18200A996CF /* MatchingViewController.m */; };
 		8F8AD04A163DDA0500A996CF /* MatchingPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD049163DDA0500A996CF /* MatchingPlayViewController.m */; };
 		8F8AD051163DDCFB00A996CF /* abbeyalbum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */; };
@@ -32,6 +40,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F49214F1645C577003AC72D /* Arthur Lydiard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arthur Lydiard.jpg"; sourceTree = "<group>"; };
+		8F4921521645C597003AC72D /* Joe Vigil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe Vigil.jpg"; sourceTree = "<group>"; };
+		8F4921541645C637003AC72D /* Running.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Running.jpg; sourceTree = "<group>"; };
+		8F4921561645C878003AC72D /* Elliptical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Elliptical.jpg; sourceTree = "<group>"; };
+		8F4921571645C878003AC72D /* Walking.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Walking.jpg; sourceTree = "<group>"; };
+		8F4921581645C878003AC72D /* Cycling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cycling.jpg; sourceTree = "<group>"; };
+		8F4921591645C878003AC72D /* Treadmill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Treadmill.jpg; sourceTree = "<group>"; };
+		8F49215E1645CD5B003AC72D /* piechart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piechart.jpg; sourceTree = "<group>"; };
 		8F8AD042163DD18200A996CF /* MatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingViewController.h; path = ../MatchingViewController.h; sourceTree = "<group>"; };
 		8F8AD043163DD18200A996CF /* MatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchingViewController.m; path = ../MatchingViewController.m; sourceTree = "<group>"; };
 		8F8AD048163DDA0500A996CF /* MatchingPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingPlayViewController.h; path = ../MatchingPlayViewController.h; sourceTree = "<group>"; };
@@ -144,6 +160,14 @@
 				8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */,
 				8FA65714163DFAB100975984 /* profile.jpeg */,
 				8FD057A5163E0079000784BC /* stats.jpg */,
+				8F4921541645C637003AC72D /* Running.jpg */,
+				8F4921561645C878003AC72D /* Elliptical.jpg */,
+				8F4921571645C878003AC72D /* Walking.jpg */,
+				8F4921581645C878003AC72D /* Cycling.jpg */,
+				8F4921591645C878003AC72D /* Treadmill.jpg */,
+				8F49215E1645CD5B003AC72D /* piechart.jpg */,
+				8F49214F1645C577003AC72D /* Arthur Lydiard.jpg */,
+				8F4921521645C597003AC72D /* Joe Vigil.jpg */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -211,6 +235,14 @@
 				8F8AD051163DDCFB00A996CF /* abbeyalbum.jpeg in Resources */,
 				8FA65715163DFAB100975984 /* profile.jpeg in Resources */,
 				8FD057A6163E0079000784BC /* stats.jpg in Resources */,
+				8F4921501645C577003AC72D /* Arthur Lydiard.jpg in Resources */,
+				8F4921531645C597003AC72D /* Joe Vigil.jpg in Resources */,
+				8F4921551645C637003AC72D /* Running.jpg in Resources */,
+				8F49215A1645C878003AC72D /* Elliptical.jpg in Resources */,
+				8F49215B1645C878003AC72D /* Walking.jpg in Resources */,
+				8F49215C1645C878003AC72D /* Cycling.jpg in Resources */,
+				8F49215D1645C878003AC72D /* Treadmill.jpg in Resources */,
+				8F49215F1645CD5B003AC72D /* piechart.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
