@@ -15,6 +15,8 @@
 		8F49215C1645C878003AC72D /* Cycling.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921581645C878003AC72D /* Cycling.jpg */; };
 		8F49215D1645C878003AC72D /* Treadmill.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921591645C878003AC72D /* Treadmill.jpg */; };
 		8F49215F1645CD5B003AC72D /* piechart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F49215E1645CD5B003AC72D /* piechart.jpg */; };
+		8F4921611645DD23003AC72D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921601645DD23003AC72D /* icon.png */; };
+		8F4921631645DDF9003AC72D /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921621645DDF9003AC72D /* icon2.png */; };
 		8F8AD044163DD18200A996CF /* MatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD043163DD18200A996CF /* MatchingViewController.m */; };
 		8F8AD04A163DDA0500A996CF /* MatchingPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD049163DDA0500A996CF /* MatchingPlayViewController.m */; };
 		8F8AD051163DDCFB00A996CF /* abbeyalbum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */; };
@@ -48,6 +50,8 @@
 		8F4921581645C878003AC72D /* Cycling.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Cycling.jpg; sourceTree = "<group>"; };
 		8F4921591645C878003AC72D /* Treadmill.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Treadmill.jpg; sourceTree = "<group>"; };
 		8F49215E1645CD5B003AC72D /* piechart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piechart.jpg; sourceTree = "<group>"; };
+		8F4921601645DD23003AC72D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		8F4921621645DDF9003AC72D /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = ../icon2.png; sourceTree = "<group>"; };
 		8F8AD042163DD18200A996CF /* MatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingViewController.h; path = ../MatchingViewController.h; sourceTree = "<group>"; };
 		8F8AD043163DD18200A996CF /* MatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchingViewController.m; path = ../MatchingViewController.m; sourceTree = "<group>"; };
 		8F8AD048163DDA0500A996CF /* MatchingPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingPlayViewController.h; path = ../MatchingPlayViewController.h; sourceTree = "<group>"; };
@@ -154,6 +158,8 @@
 				8FF28C4C1635B253000DC209 /* InfoPlist.strings */,
 				8FF28C4F1635B253000DC209 /* main.m */,
 				8FF28C511635B253000DC209 /* Musicise-Prefix.pch */,
+				8F4921621645DDF9003AC72D /* icon2.png */,
+				8F4921601645DD23003AC72D /* icon.png */,
 				8FF28C551635B253000DC209 /* Default.png */,
 				8FF28C571635B253000DC209 /* Default@2x.png */,
 				8FF28C591635B253000DC209 /* Default-568h@2x.png */,
@@ -243,6 +249,8 @@
 				8F49215C1645C878003AC72D /* Cycling.jpg in Resources */,
 				8F49215D1645C878003AC72D /* Treadmill.jpg in Resources */,
 				8F49215F1645CD5B003AC72D /* piechart.jpg in Resources */,
+				8F4921611645DD23003AC72D /* icon.png in Resources */,
+				8F4921631645DDF9003AC72D /* icon2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
