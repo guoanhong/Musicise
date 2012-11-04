@@ -17,6 +17,7 @@
 		8F49215F1645CD5B003AC72D /* piechart.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F49215E1645CD5B003AC72D /* piechart.jpg */; };
 		8F4921611645DD23003AC72D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921601645DD23003AC72D /* icon.png */; };
 		8F4921631645DDF9003AC72D /* icon2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921621645DDF9003AC72D /* icon2.png */; };
+		8F4921661645EAC5003AC72D /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F4921651645EAC5003AC72D /* SettingsViewController.m */; };
 		8F8AD044163DD18200A996CF /* MatchingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD043163DD18200A996CF /* MatchingViewController.m */; };
 		8F8AD04A163DDA0500A996CF /* MatchingPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F8AD049163DDA0500A996CF /* MatchingPlayViewController.m */; };
 		8F8AD051163DDCFB00A996CF /* abbeyalbum.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8F8AD050163DDCFB00A996CF /* abbeyalbum.jpeg */; };
@@ -52,6 +53,8 @@
 		8F49215E1645CD5B003AC72D /* piechart.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = piechart.jpg; sourceTree = "<group>"; };
 		8F4921601645DD23003AC72D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
 		8F4921621645DDF9003AC72D /* icon2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon2.png; path = ../icon2.png; sourceTree = "<group>"; };
+		8F4921641645EAC5003AC72D /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		8F4921651645EAC5003AC72D /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		8F8AD042163DD18200A996CF /* MatchingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingViewController.h; path = ../MatchingViewController.h; sourceTree = "<group>"; };
 		8F8AD043163DD18200A996CF /* MatchingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MatchingViewController.m; path = ../MatchingViewController.m; sourceTree = "<group>"; };
 		8F8AD048163DDA0500A996CF /* MatchingPlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MatchingPlayViewController.h; path = ../MatchingPlayViewController.h; sourceTree = "<group>"; };
@@ -132,6 +135,8 @@
 				8FF28C521635B253000DC209 /* AppDelegate.h */,
 				8FF28C531635B253000DC209 /* AppDelegate.m */,
 				8FF28C5B1635B253000DC209 /* MainStoryboard.storyboard */,
+				8F4921641645EAC5003AC72D /* SettingsViewController.h */,
+				8F4921651645EAC5003AC72D /* SettingsViewController.m */,
 				8F8AD042163DD18200A996CF /* MatchingViewController.h */,
 				8F8AD043163DD18200A996CF /* MatchingViewController.m */,
 				8F8AD048163DDA0500A996CF /* MatchingPlayViewController.h */,
@@ -268,6 +273,7 @@
 				8FA656F1163DE7AB00975984 /* TrainingTypeTableViewController.m in Sources */,
 				8FA656F4163DE80800975984 /* TrainingLengthTableViewController.m in Sources */,
 				8FA656F7163DE82F00975984 /* TrainingCoachTableViewController.m in Sources */,
+				8F4921661645EAC5003AC72D /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
