@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8F14F6C21647661A007E1FF9 /* cog_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F14F6C11647661A007E1FF9 /* cog_02.png */; };
+		8F14F6C416476650007E1FF9 /* people_.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F14F6C316476650007E1FF9 /* people_.png */; };
+		8F14F6C6164766FB007E1FF9 /* heart.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F14F6C5164766FB007E1FF9 /* heart.png */; };
+		8F14F6C816476740007E1FF9 /* magnet.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F14F6C716476740007E1FF9 /* magnet.png */; };
+		8F14F6CC16476770007E1FF9 /* forward_to_end_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F14F6C916476770007E1FF9 /* forward_to_end_01@2x.png */; };
+		8F14F6CD16476770007E1FF9 /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F14F6CA16476770007E1FF9 /* play@2x.png */; };
+		8F14F6CE16476770007E1FF9 /* rewind_to_start_01@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8F14F6CB16476770007E1FF9 /* rewind_to_start_01@2x.png */; };
 		8F4921501645C577003AC72D /* Arthur Lydiard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F49214F1645C577003AC72D /* Arthur Lydiard.jpg */; };
 		8F4921531645C597003AC72D /* Joe Vigil.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921521645C597003AC72D /* Joe Vigil.jpg */; };
 		8F4921551645C637003AC72D /* Running.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8F4921541645C637003AC72D /* Running.jpg */; };
@@ -25,6 +32,7 @@
 		8FA656F4163DE80800975984 /* TrainingLengthTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA656F3163DE80800975984 /* TrainingLengthTableViewController.m */; };
 		8FA656F7163DE82F00975984 /* TrainingCoachTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FA656F6163DE82F00975984 /* TrainingCoachTableViewController.m */; };
 		8FA65715163DFAB100975984 /* profile.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 8FA65714163DFAB100975984 /* profile.jpeg */; };
+		8FA6E84016474EE300D03C2E /* matching.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FA6E83F16474EE300D03C2E /* matching.jpg */; };
 		8FD057A6163E0079000784BC /* stats.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8FD057A5163E0079000784BC /* stats.jpg */; };
 		8FF28C441635B253000DC209 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C431635B253000DC209 /* UIKit.framework */; };
 		8FF28C461635B253000DC209 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FF28C451635B253000DC209 /* Foundation.framework */; };
@@ -43,6 +51,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8F14F6C11647661A007E1FF9 /* cog_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cog_02.png; sourceTree = "<group>"; };
+		8F14F6C316476650007E1FF9 /* people_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = people_.png; sourceTree = "<group>"; };
+		8F14F6C5164766FB007E1FF9 /* heart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = heart.png; sourceTree = "<group>"; };
+		8F14F6C716476740007E1FF9 /* magnet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = magnet.png; sourceTree = "<group>"; };
+		8F14F6C916476770007E1FF9 /* forward_to_end_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "forward_to_end_01@2x.png"; sourceTree = "<group>"; };
+		8F14F6CA16476770007E1FF9 /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		8F14F6CB16476770007E1FF9 /* rewind_to_start_01@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rewind_to_start_01@2x.png"; sourceTree = "<group>"; };
 		8F49214F1645C577003AC72D /* Arthur Lydiard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Arthur Lydiard.jpg"; sourceTree = "<group>"; };
 		8F4921521645C597003AC72D /* Joe Vigil.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Joe Vigil.jpg"; sourceTree = "<group>"; };
 		8F4921541645C637003AC72D /* Running.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Running.jpg; sourceTree = "<group>"; };
@@ -67,6 +82,7 @@
 		8FA656F5163DE82F00975984 /* TrainingCoachTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrainingCoachTableViewController.h; sourceTree = "<group>"; };
 		8FA656F6163DE82F00975984 /* TrainingCoachTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrainingCoachTableViewController.m; sourceTree = "<group>"; };
 		8FA65714163DFAB100975984 /* profile.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = profile.jpeg; sourceTree = "<group>"; };
+		8FA6E83F16474EE300D03C2E /* matching.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = matching.jpg; sourceTree = "<group>"; };
 		8FD057A5163E0079000784BC /* stats.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = stats.jpg; sourceTree = "<group>"; };
 		8FF28C3F1635B253000DC209 /* Musicise.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Musicise.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FF28C431635B253000DC209 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -162,7 +178,15 @@
 				8FF28C4B1635B253000DC209 /* Musicise-Info.plist */,
 				8FF28C4C1635B253000DC209 /* InfoPlist.strings */,
 				8FF28C4F1635B253000DC209 /* main.m */,
+				8F14F6C916476770007E1FF9 /* forward_to_end_01@2x.png */,
+				8F14F6CA16476770007E1FF9 /* play@2x.png */,
+				8F14F6CB16476770007E1FF9 /* rewind_to_start_01@2x.png */,
 				8FF28C511635B253000DC209 /* Musicise-Prefix.pch */,
+				8F14F6C716476740007E1FF9 /* magnet.png */,
+				8FA6E83F16474EE300D03C2E /* matching.jpg */,
+				8F14F6C5164766FB007E1FF9 /* heart.png */,
+				8F14F6C316476650007E1FF9 /* people_.png */,
+				8F14F6C11647661A007E1FF9 /* cog_02.png */,
 				8F4921621645DDF9003AC72D /* icon2.png */,
 				8F4921601645DD23003AC72D /* icon.png */,
 				8FF28C551635B253000DC209 /* Default.png */,
@@ -256,6 +280,14 @@
 				8F49215F1645CD5B003AC72D /* piechart.jpg in Resources */,
 				8F4921611645DD23003AC72D /* icon.png in Resources */,
 				8F4921631645DDF9003AC72D /* icon2.png in Resources */,
+				8FA6E84016474EE300D03C2E /* matching.jpg in Resources */,
+				8F14F6C21647661A007E1FF9 /* cog_02.png in Resources */,
+				8F14F6C416476650007E1FF9 /* people_.png in Resources */,
+				8F14F6C6164766FB007E1FF9 /* heart.png in Resources */,
+				8F14F6C816476740007E1FF9 /* magnet.png in Resources */,
+				8F14F6CC16476770007E1FF9 /* forward_to_end_01@2x.png in Resources */,
+				8F14F6CD16476770007E1FF9 /* play@2x.png in Resources */,
+				8F14F6CE16476770007E1FF9 /* rewind_to_start_01@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
