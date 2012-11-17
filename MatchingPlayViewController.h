@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
-@interface MatchingPlayViewController : UIViewController
+@interface MatchingPlayViewController : UIViewController{
+    CMMotionManager *motionManager;
+    UILabel *accelerometerLabel;
+    UILabel *gyroscopeLabel;
+    NSTimer *updateTimer;
+    
+}
 
+@property (nonatomic, retain) CMMotionManager *motionManager;
+@property (nonatomic, retain) IBOutlet UILabel *accelerometerLabel;
+@property (nonatomic, retain) IBOutlet UILabel * gyroscopeLabel;
+@property (retain) NSTimer *updateTimer;
 @end
