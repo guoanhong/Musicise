@@ -83,6 +83,15 @@
 //}
 
 - (void)viewDidLoad {
+    counter = 0;
+    previousCounter = 0;
+    previous = 1;
+    step1 = 120;
+    step2 = 120;
+    step3 = 120;
+    step4 = 120;
+    step5 = 120;
+    step = 120;
     [super viewDidLoad];
     self.motionManager = [[CMMotionManager alloc] init];
     
@@ -138,17 +147,37 @@
 //              accelerometerData.acceleration.z);
     }
     if (motionManager.gyroAvailable) {
+        counter ++;
         CMGyroData *gyroData = motionManager.gyroData;
+        float change = previous * gyroData.rotationRate.z;
         gyroscopeLabel.text = [NSString stringWithFormat:
                                @"Gyroscope\n--------\nx: %+.2f\ny: %+.2f\nz: %+.2f",
                                gyroData.rotationRate.x,
                                gyroData.rotationRate.y,
                                gyroData.rotationRate.z];
+        previous = gyroData.rotationRate.z;
+        if(change <= 0){
+            float hertz = 60.0*50.0/(float)(counter - previousCounter);
+            if(hertz < 260 ){
+                NSLog(@"-----------Direction Changed------------");
+                //NSLog(@"Previous Counter: %d", previousCounter);
+                //NSLog(@"Counter: %d",counter);
+                NSLog(@"Running BPM: %f", hertz);
+                step1 = step2;
+                step2 = step3;
+                step3 = step4;
+                step4 = step5;
+                step5 = hertz;
+                step = 0.2*step1 + 0.2*step2 + 0.2*step3 + 0.2*step4 + 0.2*step5;
+                NSLog(@"Average BPM: %f", step);
+            }
+            previousCounter = counter;
+        }
         
-        NSLog(@"Gyroscope\n--------\nx: %+.2f\ny: %+.2f\nz: %+.2f",
-              gyroData.rotationRate.x,
-              gyroData.rotationRate.y,
-              gyroData.rotationRate.z);
+//        NSLog(@"Gyroscope\n--------\nx: %+.2f\ny: %+.2f\nz: %+.2f",
+//              gyroData.rotationRate.x,
+//              gyroData.rotationRate.y,
+//              gyroData.rotationRate.z);
     }
 }
 

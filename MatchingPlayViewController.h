@@ -14,7 +14,16 @@
     UILabel *accelerometerLabel;
     UILabel *gyroscopeLabel;
     NSTimer *updateTimer;
-    
+    float previous;
+    int counter;
+    int previousCounter;
+
+    float step1;
+    float step2;
+    float step3;
+    float step4;
+    float step5;
+    float step;
 }
 
 @property (nonatomic, retain) CMMotionManager *motionManager;
